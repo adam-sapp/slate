@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xsl:stylesheet version="1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:fw="http://technolutions.com/framework" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" exclude-result-prefixes="xhtml">
+  <xsl:template match="/">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+      <template path="/shared/base.xslt" xmlns="http://technolutions.com/framework" />
+      <head>
+        <script src="https://cdn.optimizely.com/js/18628381365.js">
+        </script>
+        <link href="/shared/build-fonts.css?v=20201102144529" rel="stylesheet" />
+        <link href="/shared/build-mobile-global.css" rel="stylesheet" />
+        <script src="/shared/build-mobile-global.js" />
+        <link href="/shared/build.css?v=20201102144535" rel="stylesheet" />
+        <style>html &gt; body { line-height: normal; } ul.cr, li.cr { margin: 0; padding: 0; } #content { clear: both; padding: 15px; } #global { float: right; } #global ul, #global li { list-style: none; margin: 0; padding: 0; }</style>
+        <meta name="viewport" content="width=device-width, initial-scale=1" class="cr" />
+        <xsl:apply-templates select="xhtml:html/xhtml:head/node()" />
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-P3L37W');</script>
+        <!-- End Google Tag Manager -->
+        <!-- Bluesonic: Carnegie Clarity -->
+        <script src="https://m516.georgiasouthern.edu/script.js">
+        </script>
+        <!-- End Bluesonic: Carnegie Clarity -->
+      </head>
+      <body>
+        <xsl:copy-of select="xhtml:html/xhtml:body/@*" />
+        <!-- Google Tag Manager (noscript) -->
+        <noscript>
+          <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P3L37W" height="0" width="0" style="display:none;visibility:hidden">
+          </iframe>
+        </noscript>
+        <!-- End Google Tag Manager (noscript) -->
+        <div id="page">
+          <div data-rsssl="1" class="c_page-template c_page-template-fullwidth-page c_page-template-fullwidth-page-php c_page c_page-id-8387 cr">
+            <a class="c_sr-only c_sr-only-focusable cr" href="#content">Skip to main content</a>
+            <header class="cr">
+              <div id="c_nav-top" class="cr">
+                <div class="c_container cr">
+                  <div class="c_row cr">
+                    <div class="c_col-sm-5 c_col-md-5 cr">
+                      <a class="cr" href="https://www.georgiasouthern.edu/">
+                        <img src="/images/gsheaderlogo-500px.png" id="c_logo-mobile" alt="Georgia Southern University" class="c_img-responsive cr" tabindex="0" />
+                      </a>
+                    </div>
+                    <div class="c_hidden-xs c_col-md-4 cr" id="c_nav-top-links">
+                      <a href="https://my.georgiasouthern.edu/" class="cr">MyGS</a>
+                      <a href="https://www.georgiasouthern.edu/parents-and-families/" class="cr">Parent &amp; Families</a>
+                      <a href="https://www.alumni.georgiasouthern.edu/s/1544/bp/home.aspx?gid=2&amp;pgid=61" class="cr">Alumni</a>
+                    </div>
+                    <div class="c_hidden-xs c_col-md-3 c_col-sm-3 c_col-md-offset-0 c_col-sm-offset-4 cr" />
+                  </div>
+                </div>
+              </div>
+              <div id="c_nav-bottom" class="cr">
+                <nav class="c_navbar c_navbar-default cr" role="navigation">
+                  <div class="c_container cr">
+                    <div class="c_row cr">
+                      <div class="c_collapse c_navbar-collapse cr" id="c_navbar-items">
+                        <ul class="c_nav c_navbar-nav cr">
+                          <li class="c_visible-xs c_dropdown c_nav-button cr" id="c_nav-button-applynow-mobile">
+                            <a data-toggle="dropdown" class="c_nav-toggle cr" href="https://admissions.georgiasouthern.edu/admission/apply/">
+                              <span class="cr">Apply</span>
+                              <!--<span class="c_caret cr" />-->
+                            </a>
+                            <!--<ul class="c_dropdown-menu cr" role="menu" id="c_nav-applynow-mobile">
+                              <li class="cr">
+                                <a href="https://admissions.georgiasouthern.edu/apply/" class="cr">Undergraduate</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://cogs.georgiasouthern.edu/admission/start/applynow/" class="cr">Graduate</a>
+                              </li>
+                            </ul>-->
+                          </li>
+                          <li class="c_visible-xs c_nav-button cr">
+                            <a href="https://admissions.georgiasouthern.edu/visit/" data-toggle="tooltip" data-placement="bottom" class="cr">
+                              <span class="cr">Visit</span>
+                            </a>
+                          </li>
+                          <li class="c_visible-xs c_nav-button cr">
+                            <a href="https://securelb.imodules.com/s/1544/index.aspx?sid=1544&amp;gid=1&amp;pgid=463&amp;cid=1157&amp;dids=22.187.191.196.195.197.493.353.828.408.350.145&amp;bledit=1&amp;sort=1" data-toggle="tooltip" data-placement="bottom" class="cr">
+                              <span class="cr">Give</span>
+                            </a>
+                          </li>
+                          <li class="c_dropdown c_nav-button cr">
+                            <a data-toggle="dropdown" class="c_nav-toggle c_button-slanted c_globalnav-element cr" href="https://www.georgiasouthern.edu/about/">
+                              <span class="c_button-slanted-content cr">About</span>
+                              <!--<span class="c_caret cr" />-->
+                            </a>
+                            <!--<ul class="c_dropdown-menu cr" role="menu" id="c_nav-about">
+                              <li class="cr">
+                                <a href="https://www.georgiasouthern.edu/about/" class="c_globalnav-about-element cr">About the University</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://jobs.georgiasouthern.edu/employment-opportunities/" class="c_globalnav-about-element cr">Careers</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://www.georgiasouthern.edu/diversityandinclusion/" class="c_globalnav-about-element cr">Inclusive Excellence</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://em.georgiasouthern.edu/ir/facts-and-figures/factbook/" class="c_globalnav-about-element cr">Fact Book</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://news.georgiasouthern.edu/at-a-glance/" class="c_globalnav-about-element cr">GS at a Glance</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://www.georgiasouthern.edu/history/" class="c_globalnav-about-element cr">History</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://www.georgiasouthern.edu/leadership-and-divisions/" class="c_globalnav-about-element cr">Leadership and Divisions</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://president.georgiasouthern.edu/performance-excellence/mission-values/" class="c_globalnav-about-element cr">Mission and Values</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://president.georgiasouthern.edu/" class="c_globalnav-about-element cr">Office of the President</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://president.georgiasouthern.edu/performance-excellence/strategic-plan/" class="c_globalnav-about-element cr">Strategic Plan</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://news.georgiasouthern.edu/points-of-pride/" class="c_globalnav-about-element cr">Points of Pride</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://www.georgiasouthern.edu/traditions/" class="c_globalnav-about-element cr">Traditions</a>
+                              </li>
+                              <li class="c_dropdown-header cr">News &amp; Events</li>
+                              <li class="cr">
+                                <a href="https://news.georgiasouthern.edu/" class="c_globalnav-about-element cr">University Newsroom</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://calendar.georgiasouthern.edu/" class="c_globalnav-about-element cr">Event Calendar</a>
+                              </li>
+                              <li class="c_dropdown-header cr">Visit Campus</li>
+                              <li class="cr">
+                                <a href="https://www.georgiasouthern.edu/campuses/" class="c_globalnav-about-element cr">Campuses</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://www.georgiasouthern.edu/map/" class="c_globalnav-about-element cr">Maps</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://auxiliary.georgiasouthern.edu/parking/" class="c_globalnav-about-element cr">Parking</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://www.georgiasouthern.edu/visitors/" class="c_globalnav-about-element cr">Visitor Information</a>
+                              </li>
+                            </ul>-->
+                          </li>
+                          <li class="c_dropdown c_nav-button cr">
+                            <a data-toggle="dropdown" class="c_nav-toggle c_button-slanted c_globalnav-element cr" href="https://admissions.georgiasouthern.edu/" id="c_globalnav-admissions-menu">
+                              <span class="c_button-slanted-content cr">Admissions &amp; Aid</span>
+                              <!--<span class="c_caret cr" />-->
+                            </a>
+                            <!--<ul class="c_dropdown-menu cr" role="menu" id="c_nav-admissions">
+                              <li class="c_dropdown-header cr">Quick Launch</li>
+                              <li class="cr">
+                                <a href="https://admissions.georgiasouthern.edu/" class="c_globalnav-admissions-element cr">Undergraduate Admissions</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://cogs.georgiasouthern.edu/admission/" class="c_globalnav-admissions-element cr">Graduate Admissions</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://admissions.georgiasouthern.edu/visit/" class="c_globalnav-admissions-element cr">Visit a Campus</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://admissions.georgiasouthern.edu/orientation/" class="c_globalnav-admissions-element cr">Student Orientation</a>
+                              </li>
+                              <li class="c_dropdown-header cr">Aid &amp; Resources</li>
+                              <li class="cr">
+                                <a href="https://finserv.georgiasouthern.edu/bursar/office-of-student-accounts/tuition-and-fees/" class="c_globalnav-admissions-element cr">Tuition &amp; Fees</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://em.georgiasouthern.edu/finaid/" class="c_globalnav-admissions-element cr">Financial Aid</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://admissions.georgiasouthern.edu/scholarships/" class="c_globalnav-admissions-element cr">Scholarship Information</a>
+                              </li>
+                            </ul>-->
+                          </li>
+                          <li class="c_dropdown c_nav-button cr">
+                            <a data-toggle="dropdown" class="c_nav-toggle c_button-slanted c_globalnav-element cr" href="https://www.georgiasouthern.edu/majors/ " id="c_globalnav-academics-menu">
+                              <span class="c_button-slanted-content cr">Academics</span>
+                              <!--<span class="c_caret cr" />-->
+                            </a>
+                            <!--<ul class="c_dropdown-menu cr" role="menu" id="c_nav-academics">
+                              <li class="c_dropdown-header cr">Majors &amp; Programs</li>
+                              <li class="cr">
+                                <a href="https://www.georgiasouthern.edu/majors/" class="c_globalnav-academics-element cr">Undergraduate Majors A-Z</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://www.georgiasouthern.edu/graduate-programs/" class="c_globalnav-academics-element cr">Graduate Programs</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://academics.georgiasouthern.edu/online/" class="c_globalnav-academics-element cr">Online Learning</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://academics.georgiasouthern.edu/ce/" class="c_globalnav-academics-element cr">Continuing Education</a>
+                              </li>
+                              <li class="c_dropdown-header cr">Colleges</li>
+                              <li class="cr">
+                                <a href="https://cec.georgiasouthern.edu/" class="c_globalnav-academics-element cr">Allen E. Paulson College of<br class="cr" />
+Engineering and Computing</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://cah.georgiasouthern.edu/" class="c_globalnav-academics-element cr">College of Arts and Humanities</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://cbss.georgiasouthern.edu/" class="c_globalnav-academics-element cr">College of Behavioral and Social Sciences</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://coe.georgiasouthern.edu/" class="c_globalnav-academics-element cr">College of Education</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://cosm.georgiasouthern.edu/" class="c_globalnav-academics-element cr">College of Science and Mathematics</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://cogs.georgiasouthern.edu/" class="c_globalnav-academics-element cr">Jack N. Averitt College of Graduate Studies</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://jphcoph.georgiasouthern.edu/" class="c_globalnav-academics-element cr">Jiann-Ping Hsu College of Public Health</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://parker.georgiasouthern.edu/" class="c_globalnav-academics-element cr">Parker College of Business</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://chp.georgiasouthern.edu/" class="c_globalnav-academics-element cr">Waters College of Health Professions</a>
+                              </li>
+                              <li class="c_dropdown-header cr">Resources</li>
+                              <li class="cr">
+                                <a href="https://em.georgiasouthern.edu/registrar/resources/calendars/" class="c_globalnav-academics-element cr">Academic Calendar</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://academics.georgiasouthern.edu/success" class="c_globalnav-academics-element cr">Academic Success Center</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://coursesearch.georgiasouthern.edu/" class="c_globalnav-academics-element cr">Course Search</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://em.georgiasouthern.edu/registrar/resources/catalogs/" class="c_globalnav-academics-element cr">University Catalog</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://em.georgiasouthern.edu/registrar/" class="c_globalnav-academics-element cr">Registrar</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://academics.georgiasouthern.edu/" class="c_globalnav-academics-element cr">Provost's Office</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://academics.georgiasouthern.edu/fye/" class="c_globalnav-academics-element cr">First-Year Experience</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://academics.georgiasouthern.edu/honors/" class="c_globalnav-academics-element cr">Honors Program</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://library.georgiasouthern.edu/" class="c_globalnav-academics-element cr">University Libraries</a>
+                              </li>
+                            </ul>-->
+                          </li>
+                          <li class="c_dropdown c_nav-button cr">
+                            <a data-toggle="dropdown" class="c_nav-toggle c_button-slanted c_globalnav-element cr" href="https://www.georgiasouthern.edu/campuslife/" id="c_globalnav-students-menu">
+                              <span class="c_button-slanted-content cr">Student Life</span>
+                              <!--<span class="c_caret cr" />-->
+                            </a>
+                            <!--<ul class="c_dropdown-menu cr" role="menu" id="c_nav-studentlife">
+                              <li class="cr">
+                                <a href="https://www.georgiasouthern.edu/campuslife/" class="c_globalnav-students-element cr">Campus Life at Georgia Southern</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://auxiliary.georgiasouthern.edu/housing/" class="c_globalnav-students-element cr">Housing</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://auxiliary.georgiasouthern.edu/eagledining/" class="c_globalnav-students-element cr">Dining</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://students.georgiasouthern.edu/counseling/" class="c_globalnav-students-element cr">Counseling Center</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://auxiliary.georgiasouthern.edu/healthservices/" class="c_globalnav-students-element cr">Health Services</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://recreation.georgiasouthern.edu/" class="c_globalnav-students-element cr">Campus Recreation &amp; Intramurals</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://gsustore.com/" class="c_globalnav-students-element cr">Bookstore</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://library.georgiasouthern.edu/" class="c_globalnav-students-element cr">Library</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://students.georgiasouthern.edu/student-activities/" class="c_globalnav-students-element cr">Student Activities</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://academics.georgiasouthern.edu/international/study-abroad/" class="c_globalnav-students-element cr">Study Abroad</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://calendar.georgiasouthern.edu/" class="c_globalnav-students-element cr">Events Calendar</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://its.georgiasouthern.edu/" class="c_globalnav-students-element cr">Tech Support</a>
+                              </li>
+                              <li class="c_dropdown-header cr">Campuses</li>
+                              <li class="cr">
+                                <a href="https://www.georgiasouthern.edu/campuses/statesboro-campus/" class="c_globalnav-students-element cr">Statesboro Campus</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://www.georgiasouthern.edu/campuses/armstrong-campus/" class="c_globalnav-students-element cr">Armstrong Campus</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://www.georgiasouthern.edu/campuses/liberty-campus/" class="c_globalnav-students-element cr">Liberty Campus</a>
+                              </li>
+                            </ul>-->
+                          </li>
+                          <li class="c_dropdown c_nav-button cr">
+                            <a data-toggle="dropdown" class="c_nav-toggle c_button-slanted c_globalnav-element cr" href="https://research.georgiasouthern.edu/">
+                              <span class="c_button-slanted-content cr">Research</span>
+                              <!--<span class="c_caret cr" />-->
+                            </a>
+                            <!--<ul class="c_dropdown-menu cr" role="menu" id="c_nav-research">
+                              <li class="cr">
+                                <a href="https://research.georgiasouthern.edu/" class="cr">Research at Georgia Southern University</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://research.georgiasouthern.edu/orssp/" class="cr">Research Services and Sponsored Programs</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://research.georgiasouthern.edu/researchintegrity/" class="cr">Research Integrity</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://research.georgiasouthern.edu/industry-outreach-and-economic-development/" class="cr">University Research in the Region</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://research.georgiasouthern.edu/expertise-search/" class="cr">Expertise Search</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://research.georgiasouthern.edu/centers-and-laboratories/" class="cr">Research Centers &amp; Institute</a>
+                              </li>
+                            </ul>-->
+                          </li>
+                          <li class="c_dropdown c_nav-button cr">
+                            <a data-toggle="dropdown" class="c_nav-toggle c_button-slanted c_globalnav-element cr" href="https://gseagles.com/" id="c_globalnav-research-menu">
+                              <span class="c_button-slanted-content cr">Athletics</span>
+                              <!--<span class="c_caret cr" />-->
+                            </a>
+                            <!--<ul class="c_dropdown-menu cr" role="menu" id="c_nav-athletics">
+                              <li class="c_dropdown-header cr">NCAA Division I Athletics</li>
+                              <li class="cr">
+                                <a href="https://www.gseagles.com/" class="c_globalnav-research-element cr">Eagle Athletics</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://www.gseagles.com/tickets" class="c_globalnav-research-element cr">Tickets</a>
+                              </li>
+                              <li class="c_dropdown-header cr">Related Links</li>
+                              <li class="cr">
+                                <a href="https://recreation.georgiasouthern.edu/" class="c_globalnav-research-element cr">Campus Recreation &amp; Intramurals</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://recreation.georgiasouthern.edu/facilities/recreation-activity-center/" class="c_globalnav-research-element cr">Recreation Activity Center</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://recreation.georgiasouthern.edu/golf/" class="c_globalnav-research-element cr">Golf Course</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://marketing.georgiasouthern.edu/shop/" class="c_globalnav-research-element cr">Shop Georgia Southern</a>
+                              </li>
+                            </ul>-->
+                          </li>
+                          <li class="c_visible-xs cr">
+                            <a href="https://my.georgiasouthern.edu/" class="cr">MyGS</a>
+                          </li>
+                          <li class="c_visible-xs cr">
+                            <a href="https://directory.georgiasouthern.edu/" class="cr">Directory</a>
+                          </li>
+                          <li class="c_visible-xs cr">
+                            <a href="https://www.georgiasouthern.edu/map" class="cr">Maps</a>
+                          </li>
+                          <li class="c_visible-xs cr">
+                            <a href="https://www.georgiasouthern.edu/current-students/" class="cr">Current Students</a>
+                          </li>
+                          <li class="c_visible-xs cr">
+                            <a href="https://www.georgiasouthern.edu/faculty-staff/" class="cr">Faculty &amp; Staff</a>
+                          </li>
+                          <li class="c_visible-xs cr">
+                            <a href="https://www.georgiasouthern.edu/parents-and-families/" class="cr">Parents &amp; Families</a>
+                          </li>
+                          <li class="c_visible-xs cr">
+                            <a href="https://www.alumni.georgiasouthern.edu/s/1544/bp/home.aspx?gid=2&amp;pgid=61" class="cr">Alumni</a>
+                          </li>
+                        </ul>
+                        <ul class="c_nav c_navbar-nav c_navbar-right cr">
+                          <li class="c_hidden-xs c_dropdown c_nav-button cr" id="c_nav-button-applynow">
+                            <a data-toggle="dropdown" class="c_nav-toggle c_button-slanted c_button-goldtex c_globalnav-element cr" href="https://admissions.georgiasouthern.edu/admission/apply/" id="c_globalnav-apply-menu">
+                              <span class="c_button-slanted-content cr">Apply</span>
+                              <!--<span class="c_caret cr" />-->
+                            </a>
+                            <!--<ul class="c_dropdown-menu cr" role="menu" id="c_nav-applynow">
+                              <li class="cr">
+                                <a href="https://admissions.georgiasouthern.edu/apply/" class="c_globalnav-apply-element cr">Undergraduate</a>
+                              </li>
+                              <li class="cr">
+                                <a href="https://cogs.georgiasouthern.edu/admission/start/applynow/" class="c_globalnav-apply-element cr">Graduate</a>
+                              </li>
+                            </ul>-->
+                          </li>
+                          <li class="c_hidden-xs c_nav-button cr">
+                            <a href="https://admissions.georgiasouthern.edu/visit/" data-toggle="tooltip" data-placement="bottom" class="c_button-slanted cr">
+                              <span class="c_button-slanted-content cr">Visit</span>
+                            </a>
+                          </li>
+                          <li class="c_hidden-xs c_nav-button cr">
+                            <a href="https://securelb.imodules.com/s/1544/index.aspx?sid=1544&amp;gid=1&amp;pgid=463&amp;cid=1157&amp;dids=22.187.191.196.195.197.493.353.828.408.350.145&amp;bledit=1&amp;sort=1" data-toggle="tooltip" data-placement="bottom" class="c_button-slanted cr">
+                              <span class="c_button-slanted-content cr">Give</span>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+            </header>
+            <div id="c_content" class="c_landing c_admissions cr">
+              <div class="c_bann-home cr">
+                <div class="c_container c_banners cr">
+                  <div class="c_row cr">
+                    <div class="c_col-xs-12 c_banner c_admissions cr">
+                      <div class="c_titlebox cr">
+                        <span class="c_site-title cr">
+                          <span class="c_name cr">
+                            <a href="https://georgiasouthern.edu/admissions" class="cr">Office of Admissions</a>
+                          </span>
+                        </span>
+                        <!--<p class="c_site-description cr">
+                          <span class="c_subhead cr">
+                            <a href="https://cogs.georgiasouthern.edu/" class="cr">Jack N. Averitt College of Graduate Studies</a>
+                          </span>
+                        </p>-->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="c_navi cr">
+                <div class="c_container cr">
+                  <div class="c_row cr">
+                    <nav class="cr">
+                      <div class="c_navbar-header cr">
+                        <button type="button" class="c_navbar-toggle cr" data-toggle="collapse" data-target="#dept-subnav">
+                          <span class="c_sr-only cr">Toggle navigation</span>
+                          <span class="c_icon-bar cr" />
+                          <span class="c_icon-bar cr" />
+                          <span class="c_icon-bar cr" />
+                        </button>
+                      </div>
+                      <div class="c_collapse c_navbar-collapse cr" id="c_dept-subnav">
+                        <div class="c_menu-top-nav-container cr">
+                          <ul id="c_home-menu" class="c_nav c_nav-justified c_horizontal c_admissions cr">
+                            <li id="c_menu-item-8383" class="c_menu-item c_menu-item-type-custom c_menu-item-object-custom c_menu-item-8383 cr">
+                              <a href="https://admissions.georgiasouthern.edu/admission/apply/" class="c_button-slanted cr">
+                                <span class="c_button-slanted-content cr">Apply</span>
+                              </a>
+                            </li>
+                            <li id="c_menu-item-8384" class="c_menu-item c_menu-item-type-custom c_menu-item-object-custom c_menu-item-8384 cr">
+                              <a href="https://admissions.georgiasouthern.edu/virtualvisit/" class="c_button-slanted cr">
+                                <span class="c_button-slanted-content cr">Discover</span>
+                              </a>
+                            </li>
+                            <li id="c_menu-item-8385" class="c_menu-item c_menu-item-type-custom c_menu-item-object-custom c_menu-item-8385 cr">
+                              <a href="https://admissions.georgiasouthern.edu/tuition-aid/" class="c_button-slanted cr">
+                                <span class="c_button-slanted-content cr">Tuition and Aid</span>
+                              </a>
+                            </li>
+                            <li id="c_menu-item-8194" class="c_menu-item c_menu-item-type-custom c_menu-item-object-custom c_current-menu-item c_menu-item-8194 cr">
+                              <a href="https://discover.georgiasouthern.edu/register/inquiryform" aria-current="page" class="c_button-slanted cr">
+                                <span class="c_button-slanted-content cr">Request Information</span>
+                              </a>
+                            </li>
+                            <li id="c_menu-item-8386" class="c_menu-item c_menu-item-type-custom c_menu-item-object-custom c_menu-item-8386 cr">
+                              <a href="https://admissions.georgiasouthern.edu/already-applied/" class="c_button-slanted cr">
+                                <span class="c_button-slanted-content cr">Already Applied</span>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+              <div id="c_inner-wrapper" class="c_container cr">
+                <div class="c_row cr">
+                  <div id="c_main" class="c_col-xs-12 c_fullwidth cr">
+                    <div id="global" />
+                    <div id="content">
+                      <xsl:apply-templates select="xhtml:html/xhtml:body/node()" />
+                    </div>
+                  </div>
+                </div>
+                <div class="c_row c_local-footer cr">
+                  <div class="c_col-xs-12 cr">
+                    <div class="c_textwidget cr">
+                      <p class="cr">
+                        <strong class="cr">Office of Admissions</strong> &#x2022; PO Box 8024 Statesboro, GA 30460 &#x2022; <a href="tel:912-478-5391" class="cr">912-478-5391</a> &#x2022; <a href="mailto:admissions@georgiasouthern.edu" class="cr">admissions@georgiasouthern.edu</a></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <footer id="c_global" class="cr">
+              <div class="c_container cr">
+                <div class="c_row cr">
+                  <div class="c_col-sm-4 c_locations cr">
+                    <div itemscope="itemscope" itemtype="//schema.org/EducationalOrganization" class="cr">
+                      <div itemprop="name" class="cr">
+                        <h3 class="cr">
+                          <a itemprop="url" href="https://www.georgiasouthern.edu/" class="c_footer-element cr">Georgia Southern University</a>
+                        </h3>
+                      </div>
+                    </div>
+                    <div class="c_row cr">
+                      <div class="c_hidden-xs c_col-sm-6 cr">
+                        <a href="https://www.georgiasouthern.edu/campuses/" class="cr">
+                          <img src="/images/campuses.png" alt="Three Campus Locations" class="c_img-responsive cr" />
+                        </a>
+                      </div>
+                      <div class="c_col-sm-6 cr">
+                        <p class="c_campus cr">
+                          <strong class="cr">
+                            <a href="https://www.georgiasouthern.edu/campuses/" class="c_footer-element cr">Statesboro Campus</a>
+                          </strong>
+                        </p>
+                        <div itemprop="address" itemscope="itemscope" itemtype="//schema.org/PostalAddress" class="cr">
+                          <span itemprop="streetAddress" class="cr" />
+                          <p class="cr">
+                            <span itemprop="streetAddress" class="cr">1332 Southern Drive<br class="cr" /><span itemprop="addressLocality" class="cr">Statesboro</span>, <span itemprop="addressRegion" class="cr">GA</span><span itemprop="postalCode" class="cr"> 30458</span><br class="cr" />
+912-478-4636</span>
+                          </p>
+                        </div>
+                        <p class="c_campus cr">
+                          <strong class="cr">
+                            <a href="https://www.georgiasouthern.edu/campuses/" class="c_footer-element cr">Armstrong Campus</a>
+                          </strong>
+                        </p>
+                        <div itemprop="address" itemscope="itemscope" itemtype="//schema.org/PostalAddress" class="cr">
+                          <span itemprop="streetAddress" class="cr" />
+                          <p class="cr">
+                            <span itemprop="streetAddress" class="cr">11935 Abercorn Street<br class="cr" /><span itemprop="addressLocality" class="cr">Savannah</span>, <span itemprop="addressRegion" class="cr">GA</span><span itemprop="postalCode" class="cr">  31419</span><br class="cr" />
+912-344-2576</span>
+                          </p>
+                        </div>
+                        <p class="c_campus cr">
+                          <strong class="cr">
+                            <a href="https://www.georgiasouthern.edu/campuses/" class="c_footer-element cr">Liberty Campus</a>
+                          </strong>
+                        </p>
+                        <div itemprop="address" itemscope="itemscope" itemtype="//schema.org/PostalAddress" class="cr">
+                          <span itemprop="streetAddress" class="cr" />
+                          <p class="cr">
+                            <span itemprop="streetAddress" class="cr">175 West Memorial Drive<br class="cr" /><span itemprop="addressLocality" class="cr">Hinesville</span>, <span itemprop="addressRegion" class="cr">GA</span><span itemprop="postalCode" class="cr">  31313</span><br class="cr" />
+912-877-1906</span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="c_col-sm-2 c_col-sm-offset-1 c_col-xs-6 c_audiences cr">
+                    <h3 class="cr">Information for</h3>
+                    <ul class="cr">
+                      <li class="cr">
+                        <a href="https://www.georgiasouthern.edu/future-students/" class="c_footer-element cr">Future Students</a>
+                      </li>
+                      <li class="cr">
+                        <a href="https://www.georgiasouthern.edu/current-students/" class="c_footer-element cr">Current Students</a>
+                      </li>
+                      <li class="cr">
+                        <a href="https://www.georgiasouthern.edu/parents-and-families/" class="c_footer-element cr">Parents &amp; Families</a>
+                      </li>
+                      <li class="cr">
+                        <a href="https://www.georgiasouthern.edu/military-veterans/" class="c_footer-element cr">Military &amp; Veterans</a>
+                      </li>
+                      <li class="cr">
+                        <a href="http://alumni.georgiasouthern.edu/" class="c_footer-element cr">Alumni &amp; Friends</a>
+                      </li>
+                      <li class="cr">
+                        <a href="https://www.georgiasouthern.edu/faculty-staff/" class="c_footer-element cr">Faculty &amp; Staff</a>
+                      </li>
+                      <li class="cr">
+                        <a href="https://www.georgiasouthern.edu/visitors/" class="c_footer-element cr">Community &amp; Visitors</a>
+                      </li>
+                      <li class="cr">
+                        <a href="https://www.georgiasouthern.edu/working-professionals" class="c_footer-element cr">Adult Learners</a>
+                      </li>
+                      <li class="cr">
+                        <a href="https://admissions.georgiasouthern.edu/high-school-counselors/" class="c_footer-element cr">High School Counselors</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="c_col-sm-2 c_col-sm-offset-1 c_col-xs-6 c_resources cr">
+                    <h3 class="cr">Resources</h3>
+                    <ul class="cr">
+                      <li class="cr">
+                        <a href="https://www.georgiasouthern.edu/majors/" class="c_footer-element cr">Majors and Programs</a>
+                      </li>
+                      <li class="cr">
+                        <a href="https://auxiliary.georgiasouthern.edu/housing/" class="c_footer-element cr">Housing</a>
+                      </li>
+                      <li class="cr">
+                        <a href="https://em.georgiasouthern.edu/finaid/" class="c_footer-element cr">Financial Aid</a>
+                      </li>
+                      <li class="cr">
+                        <a href="https://em.georgiasouthern.edu/registrar/" class="c_footer-element cr">Registrar</a>
+                      </li>
+                      <li class="cr">
+                        <a href="https://jobs.georgiasouthern.edu/employment-opportunities/" class="c_footer-element cr">Careers</a>
+                      </li>
+                      <li class="cr">
+                        <a href="https://library.georgiasouthern.edu/" class="c_footer-element cr">Libraries</a>
+                      </li>
+                      <li class="cr">
+                        <a href="https://finops.georgiasouthern.edu/publicsafety/" class="c_footer-element cr">Public Safety</a>
+                      </li>
+                      <li class="cr">
+                        <a href="https://its.georgiasouthern.edu/" class="c_footer-element cr">Tech Support</a>
+                      </li>
+                      <li class="cr">
+                        <a href="https://directory.georgiasouthern.edu/" class="c_footer-element cr">Directory</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="c_col-xs-50 c_col-sm-2 c_social cr">
+                    <h3 class="c_hidden-xs cr">Stay Connected</h3>
+                    <a class="c_text-hide cr" title="Facebook" href="https://www.facebook.com/GeorgiaSouthern" aria-label="Georgia Southern on Facebook" target="_blank" rel="noopener noreferrer">
+                      <img src="/images/footer-facebook.png" alt="Facebook" class="cr" />
+                    </a>
+                    <a class="c_text-hide cr" title="Twitter" href="https://twitter.com/georgiasouthern" aria-label="Georgia Southern on Twitter" target="_blank" rel="noopener noreferrer">
+                      <img src="/images/footer-twitter.png" alt="Twitter" class="cr" />
+                    </a>
+                    <a class="c_text-hide cr" title="Instagram" href="https://instagram.com/georgiasouthernuniversity" aria-label="Georgia Southern on Instagram" target="_blank" rel="noopener noreferrer">
+                      <img src="/images/footer-instagram.png" alt="Instagram" class="cr" />
+                    </a>
+                    <div class="c_hidden-xs c_clearfix cr" />
+                    <a class="c_text-hide cr" title="LinkedIn" href="https://www.linkedin.com/edu/school?id=18160" aria-label="Georgia Southern on LinkedIn" target="_blank" rel="noopener noreferrer">
+                      <img src="/images/footer-linkedin.png" alt="LinkedIn" class="cr" />
+                    </a>
+                    <a class="c_text-hide cr" title="YouTube" href="https://www.youtube.com/user/GeorgiaSouthernUniv" aria-label="Georgia Southern on YouTube" target="_blank" rel="noopener noreferrer">
+                      <img src="/images/footer-youtube.png" alt="YouTube" class="cr" />
+                    </a>
+                    <a class="c_text-hide cr" title="Snapchat" href="https://www.georgiasouthern.edu/snapchat/" aria-label="Georgia Southern on Snapchat" target="_blank" rel="noopener noreferrer">
+                      <img src="/images/footer-snapchat.png" alt="Snapchat" class="cr" />
+                    </a>
+                  </div>
+                </div>
+                <div class="c_row cr" style="border-top:2px solid #555;margin:25px 0 5px 0;padding:0;" />
+                <div class="c_row cr">
+                  <div class="c_col-sm-4 c_legal c_hidden-xs cr">
+                    <p class="c_small cr">
+                      <a href="https://academics.georgiasouthern.edu/accreditations/" class="cr">Accreditation</a> / <a href="https://www.georgiasouthern.edu/siteindex/" class="cr">Sitemap</a> / <a href="https://www.georgiasouthern.edu/privacy/" class="cr">Privacy</a> / <a href="https://georgiasouthern.alertline.com/gcs/welcome" class="cr">Ethics Hotline</a> / <a href="https://president.georgiasouthern.edu/legal/services/open-records-and-subpoenas/" class="cr">Open Records</a> / <a href="https://gbi.georgia.gov/human-trafficking-notice" class="cr">Human Trafficking Notice</a> / <a href="https://president.georgiasouthern.edu/eeo-titleix/" class="cr">Equal Opportunity &amp; Title IX</a> / <a href="https://usg.edu/" class="cr">University System of Georgia</a></p>
+                  </div>
+                  <div class="c_col-sm-4 c_col-sm-offset-4 c_copyright cr">
+                    <p class="c_small cr">Copyright &#xA9; <xsl:value-of select="fw:year()" /> &#xB7; All rights reserved</p>
+                  </div>
+                </div>
+              </div>
+            </footer>
+            <div id="c_1604344744005" class="c_jquery-lightbox-overlay cr" style="position: fixed; top: 0px; left: 0px; opacity: 0.6; display: none; z-index: 999;" />
+            <div class="c_jquery-lightbox-move cr" style="position: absolute; z-index: 999; top: -999px;">
+              <div class="c_jquery-lightbox c_jquery-lightbox-mode-image cr">
+                <div class="c_jquery-lightbox-border-top-left cr" />
+                <div class="c_jquery-lightbox-border-top-middle cr" />
+                <div class="c_jquery-lightbox-border-top-right cr" />
+                <a class="c_jquery-lightbox-button-close cr" id="c_close" href="https://cmstest.georgiasouthern.edu/gradadmissions/request-for-information/#close">
+                  <span class="cr">Close</span>
+                </a>
+                <div class="c_jquery-lightbox-navigator cr">
+                  <a class="c_jquery-lightbox-button-left cr" href="https://cmstest.georgiasouthern.edu/gradadmissions/request-for-information/#">
+                    <span class="cr">Previous</span>
+                  </a>
+                  <a class="c_jquery-lightbox-button-right cr" href="https://cmstest.georgiasouthern.edu/gradadmissions/request-for-information/#">
+                    <span class="cr">Next</span>
+                  </a>
+                </div>
+                <div class="c_jquery-lightbox-buttons cr">
+                  <div class="c_jquery-lightbox-buttons-init cr" />
+                  <a class="c_jquery-lightbox-button-left cr" href="https://cmstest.georgiasouthern.edu/gradadmissions/request-for-information/#">
+                    <span class="cr">Previous</span>
+                  </a>
+                  <a class="c_jquery-lightbox-button-max cr" href="https://cmstest.georgiasouthern.edu/gradadmissions/request-for-information/#">
+                    <span class="cr">Maximize</span>
+                  </a>
+                  <div class="c_jquery-lightbox-buttons-custom cr" />
+                  <a class="c_jquery-lightbox-button-right cr" href="https://cmstest.georgiasouthern.edu/gradadmissions/request-for-information/#">
+                    <span class="cr">Next</span>
+                  </a>
+                  <div class="c_jquery-lightbox-buttons-end cr" />
+                </div>
+                <div class="c_jquery-lightbox-background cr" />
+                <div class="c_jquery-lightbox-html cr" />
+                <div class="c_jquery-lightbox-border-bottom-left cr" />
+                <div class="c_jquery-lightbox-border-bottom-middle cr" />
+                <div class="c_jquery-lightbox-border-bottom-right cr" />
+              </div>
+            </div>
+            <div style="display: none; visibility: hidden;" class="cr" />
+            <div style="display: none; visibility: hidden;" class="cr" />
+            <div style="display: none; visibility: hidden;" class="cr" />
+            <div style="display: none; visibility: hidden;" class="cr" />
+            <div style="display: none; visibility: hidden;" class="cr" />
+          </div>
+        </div>
+      </body>
+    </html>
+  </xsl:template>
+  <xsl:template match="@* | node()">
+    <xsl:copy>
+      <xsl:apply-templates select="@* | node()" />
+    </xsl:copy>
+  </xsl:template>
+</xsl:stylesheet>
